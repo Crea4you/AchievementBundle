@@ -6,7 +6,6 @@ use Cunningsoft\AchievementBundle\Entity\Achievement;
 use Cunningsoft\AchievementBundle\Services\AchievementService;
 use Cunningsoft\AchievementBundle\Entity\UserInterface;
 use Doctrine\ORM\EntityManager;
-use JMS\SecurityExtraBundle\Annotation\Secure;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -59,7 +58,7 @@ class DefaultController extends Controller
      * @return Response
      *
      * @Route("/{category}/{id}/markAchievementMessageShown", name="markAchievementMessageShown")
-     * @Secure(roles="ROLE_USER")
+     * @Security("has_role('ROLE_USER')")
      */
     public function markAchievementMessageShownAction($category, $id)
     {
