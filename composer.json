@@ -1,5 +1,5 @@
 {
-    "name": "cunningsoft/achievement-bundle",
+    "name": "crea4you/achievement-bundle",
     "type": "symfony-bundle",
     "description": "Provides an achievement system for Symfony2",
     "keywords": ["achievement", "game", "browsergame"],
