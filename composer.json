@@ -2,18 +2,13 @@
     "name": "crea4you/achievement-bundle",
     "type": "symfony-bundle",
     "description": "Provides an achievement system for Symfony2",
-    "keywords": ["achievement", "game", "browsergame"],
-    "homepage": "https://github.com/dmecke/AchievementBundle",
+    "keywords": ["achievement"],
+    "homepage": "https://github.com/Crea4you/AchievementBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel Mecke",
-            "email": "daniel.mecke@cunningsoft.de",
-            "homepage": "http://www.cunningsoft.de"
-        },
-        {
-            "name": "Contributors",
-            "homepage": "https://github.com/dmecke/AchievementBundle/contributors"
+            "name": "Youness EL GHAZI",
+            "email": "youness.e@crea4you.fr"
         }
     ],
     "require": {
